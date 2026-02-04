@@ -1,0 +1,88 @@
+@import url(https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic);
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: poppins;
+}
+
+html,body,#root{
+  height: 100%;
+  width: 100%;
+}
+
+.create-post-section{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  height: 100%;
+  width:100%;
+  background-color: #ff87c1;
+}
+
+.create-post-section form{
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  background-color: #e2bfe8;
+  padding: 20px;
+  border-radius: 10px;
+  justify-content: center;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.create-post-section input,
+.create-post-section textarea{
+  width: 250px;
+  padding: 10px;
+  border: 1px solid #ef93ff;
+  border-radius: 4px;
+}
+
+.create-post-section button{
+  padding: 10px 20px;
+  background-color: #786eff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+}
+
+.feed-section{
+  background-color: #ff9def;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 20px;
+  min-height: 100%;
+  width: 100%;
+  padding: 20px 35px;
+}
+
+.post-card{
+  height: 350px;
+  width: 300px;
+  border-radius: 10px;
+  background-color: rgb(255, 141, 160);
+  border: 1px solid rgb(255, 170, 184);
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1) ;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+  align-items: center;
+}
+
+.post-card img{
+  height: 80%;
+  width: 80%;
+  object-fit: cover;
+}
+
+.post-card  p{
+  font-size: large;
+  font-weight: 500;
+}
